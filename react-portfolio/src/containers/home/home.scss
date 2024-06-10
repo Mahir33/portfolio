@@ -8,6 +8,8 @@
 
     &__text-wrapper {
         display: flex;
+        
+        
         justify-content: center;
 
         h1 {
@@ -18,7 +20,7 @@
             position:relative;
             overflow: hidden;
             white-space: nowrap;
-            animation: machineTyping 2.5s steps(30, end);
+            animation: machineTyping 2.5s ;
         }
     }
 }
