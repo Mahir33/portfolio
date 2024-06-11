@@ -9,7 +9,7 @@ import particles from './utils/particles';
 
 // components
 import NavBar from './components/navBar/NavBar.jsx';
-import HeaderContent from './components/headerContent/HeaderContent.jsx';
+// import HeaderContent from './components/headerContent/HeaderContent.jsx';
 
 // containers
 import Home from './containers/home/Home.jsx';
@@ -23,6 +23,8 @@ function App() {
 
   //Particles
   const [ init, setInit ] = useState(false);
+
+  console.log(init)
 
     useEffect(() => {
         initParticlesEngine(async (engine) => {
