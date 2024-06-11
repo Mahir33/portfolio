@@ -24,6 +24,29 @@
             animation: machineTyping 2.5s ;
         }
     }
+
+    &__contact {
+        display: flex;
+        justify-content: center;
+        margin: 1.5rem;
+
+        button {
+            cursor: pointer;
+            padding: 1rem 7rem;
+            font-size: 2rem;
+            background: transparent;
+            color: var(--blue-theme-main-color);
+            border: .15rem solid var(--blue-theme-main-color);
+            border-radius: .4rem;
+
+            &:hover {
+                background: var(--blue-theme-main-color);
+                color: var(--blue-theme-sub-text-color);
+            }
+        }
+
+        
+    }
 }
 
 @media only screen and (max-width: 550px) {

@@ -1,8 +1,17 @@
-import React from 'react'
+import React from 'react';
+import HeaderContent from '../../components/headerContent/HeaderContent';
+import { BsInfoCircleFill } from 'react-icons/bs';
+
 
 function Skills() {
   return (
-    <div>Skills</div>
+    <section id="skills" className='skills'>
+      <HeaderContent
+        headerText = "Skills"
+        icon={<BsInfoCircleFill size={40}/>}
+
+      />
+    </section>
   )
 }
 
