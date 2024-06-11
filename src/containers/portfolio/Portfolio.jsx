@@ -2,11 +2,11 @@ import React from 'react';
 import HeaderContent from '../../components/headerContent/HeaderContent';
 import { BsInfoCircleFill } from 'react-icons/bs';
 
-import ImageOne from "../../images/image1.jpg";
-import ImageTwo from "../../images/image2.jpg";
-import ImageThree from "../../images/image3.jpg";
-import ImageFour from "../../images/image4.jpg";
-import ImageFive from "../../images/image5.jpg";
+// import ImageOne from "../../images/image1.jpg";
+// import ImageTwo from "../../images/image2.jpg";
+// import ImageThree from "../../images/image3.jpg";
+// import ImageFour from "../../images/image4.jpg";
+// import ImageFive from "../../images/image5.jpg";
 
 import "./portfolio.scss";
 import { useState } from "react";
@@ -113,7 +113,7 @@ function Portfolio() {
               onMouseLeave={() => handleHover(null)}
             >
               <div className="portfolio__content__cards__item__img-wrapper">
-                <a>
+                <a href="#">
                   <img alt="dummy data" src={item.image} />
                 </a>
               </div>
