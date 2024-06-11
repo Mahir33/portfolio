@@ -8,7 +8,6 @@ const HeaderContent = (props) => {
   return (
     <div className='wrapper'>
       <h2>{headerText}</h2>
-      <span>{icon}</span>
     </div>
   )
 };
