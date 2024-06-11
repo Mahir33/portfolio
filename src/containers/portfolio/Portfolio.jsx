@@ -113,7 +113,7 @@ function Portfolio() {
               onMouseLeave={() => handleHover(null)}
             >
               <div className="portfolio__content__cards__item__img-wrapper">
-                <a href="#">
+                <a href="https://github.com/Mahir33">
                   <img alt="dummy data" src={item.image} />
                 </a>
               </div>
