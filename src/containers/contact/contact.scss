@@ -108,6 +108,46 @@
     }
 }
 
+.submitting {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--blue-theme-main-color);
+    font-size: 5rem;
+}
+
+.confirmed {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+
+    &__message {
+        margin-bottom: 2rem;
+        color: var(--blue-theme-main-color);
+        font-size: 5rem;
+        text-align: center;
+    }
+
+    &__button {
+        cursor: pointer;
+        padding: 1rem 7rem;
+        font-size: 2rem;
+        background: transparent;
+        color: var(--blue-theme-main-color);
+        border: .15rem solid var(--blue-theme-main-color);
+        border-radius: .4rem;
+
+    &:hover {
+        background: var(--blue-theme-main-color);
+        color: var(--blue-theme-sub-text-color);
+        }
+    }
+
+}
+
 
 @media only screen and (max-width : 768px){
     .contact__content__form{

@@ -11,6 +11,19 @@ function Contact() {
 
   const [state, handleSubmit, reset] = useForm('mknddjdj');
 
+  if (state.submitting) {
+    return <p className='submitting'>Submitting…</p>;
+  }
+
+  if (state.succeeded) {
+    return (
+        <div className='confirmed'>
+            <p className='confirmed__message'>Take me back!</p>
+            <button className='confirmed__button' onClick={reset}>Reset</button>
+        </div>
+    );
+  }
+
 //   const [formData, setFormData] = useState({
 //     name: '',
 //     email: '',
@@ -139,7 +152,7 @@ function Contact() {
                   // onChange={handleChange}
                 />
                 <label htmlFor="description" className="descriptionLabel">
-                  Description
+                  Your message
                 </label>
               </div>
             </div>
