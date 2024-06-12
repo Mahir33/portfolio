@@ -1,8 +1,8 @@
-import React from 'react';
-import HeaderContent from '../../components/headerContent/HeaderContent';
-import { BsInfoCircleFill } from 'react-icons/bs';
+import React from "react";
+import HeaderContent from "../../components/headerContent/HeaderContent";
+import { BsInfoCircleFill } from "react-icons/bs";
 
-// import ImageOne from "../../images/image1.jpg";
+import QuoteGeneratorApp from "../../images/quote-gen-app.png";
 // import ImageTwo from "../../images/image2.jpg";
 // import ImageThree from "../../images/image3.jpg";
 // import ImageFour from "../../images/image4.jpg";
@@ -18,12 +18,12 @@ const portfolioData = [
   //   image: ImageOne,
   //   link: "",
   // },
-  // {
-  //   id: 3,
-  //   name: "Notes App",
-  //   link: "",
-  //   image: ImageTwo,
-  // },
+  {
+    id: 2,
+    name: "Quote Generator App",
+    link: "https://github.com/Mahir33/p-quote-generator",
+    image: QuoteGeneratorApp,
+  },
   // {
   //   id: 2,
   //   name: "Supplier Design",
@@ -61,7 +61,6 @@ const filterData = [
 ];
 
 function Portfolio() {
-
   const [filteredValue, setFilteredValue] = useState(1);
   const [hoveredValue, setHoveredValue] = useState(null);
 
@@ -84,13 +83,11 @@ function Portfolio() {
 
   console.log(filteredItems);
 
-  
   return (
-    <section id="portfolio" className='portfolio'>
+    <section id="portfolio" className="portfolio">
       <HeaderContent
-        headerText = "Portfolio"
-        icon={<BsInfoCircleFill size={40}/>}
-
+        headerText="Portfolio"
+        icon={<BsInfoCircleFill size={40} />}
       />
       <div className="portfolio__content">
         <ul className="portfolio__content__filter">
@@ -121,7 +118,9 @@ function Portfolio() {
                 {index === hoveredValue && (
                   <div>
                     <p>{item.name}</p>
-                    <button>Visit</button>
+                    <button onClick={() => window.open(item.link, "_blank")}>
+                      Visit
+                    </button>
                   </div>
                 )}
               </div>
@@ -130,7 +129,7 @@ function Portfolio() {
         </div>
       </div>
     </section>
-  )
+  );
 }
 
 export default Portfolio;
