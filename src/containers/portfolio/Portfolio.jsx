@@ -3,6 +3,7 @@ import HeaderContent from "../../components/headerContent/HeaderContent";
 import { BsInfoCircleFill } from "react-icons/bs";
 
 import QuoteGeneratorApp from "../../images/quote-gen-app.png";
+import MIUnitConverter from "../../images/metric-imperial-unit-converter.png";
 // import ImageTwo from "../../images/image2.jpg";
 // import ImageThree from "../../images/image3.jpg";
 // import ImageFour from "../../images/image4.jpg";
@@ -12,17 +13,19 @@ import "./portfolio.scss";
 import { useState } from "react";
 
 const portfolioData = [
-  // {
-  //   id: 2,
-  //   name: "Ecommerce",
-  //   image: ImageOne,
-  //   link: "",
-  // },
+  {
+    id: 2,
+    name: "Metric/Imperial Unit Converter",
+    image: MIUnitConverter,
+    source: "https://github.com/Mahir33/p-metric-imperial-unit-converter",
+    live: "https://mahir33.github.io/p-metric-imperial-unit-converter/",
+  },
   {
     id: 2,
     name: "Quote Generator App",
-    link: "https://github.com/Mahir33/p-quote-generator",
+    source: "https://github.com/Mahir33/p-quote-generator",
     image: QuoteGeneratorApp,
+    live: "https://mahir33.github.io/p-quote-generator/",
   },
   // {
   //   id: 2,
@@ -118,8 +121,11 @@ function Portfolio() {
                 {index === hoveredValue && (
                   <div>
                     <p>{item.name}</p>
-                    <button onClick={() => window.open(item.link, "_blank")}>
-                      Visit
+                    <button onClick={() => window.open(item.live, "_blank")}>
+                      Demo
+                    </button>
+                    <button onClick={() => window.open(item.source, "_blank")}>
+                      Source
                     </button>
                   </div>
                 )}
