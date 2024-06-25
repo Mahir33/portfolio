@@ -1,0 +1,154 @@
+.contact-logo-container {
+	display: flex;
+	justify-content: left;
+	padding-top: 25px;
+}
+
+.contact-logo {
+	display: flex;
+	position: fixed;
+	border: 1px solid white;
+	border-radius: 50%;
+	box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+	top: 4vh;
+}
+
+.contact-subtitle {
+	width: 100% !important;
+}
+
+.contact-container {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	margin-top: 120px;
+}
+
+.socials-container {
+	display: flex;
+	flex-direction: column;
+	margin-top: 80px;
+}
+
+.contact-socials {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.contact__content__form {
+	margin-top: 30px;
+}
+.contact__content__form__controlsWrapper {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	gap: 10px;
+	margin-bottom: 30px;
+}
+
+.contact__content__form div {
+	position: relative;
+}
+.inputName,
+.inputEmail,
+.inputDescription {
+	width: 80%;
+	border: 1px solid var(--tertiary-color);
+	padding: 16px 12px;
+	transition: all 0.5s ease;
+	position: relative;
+	background-color: transparent;
+	color: var(--primary-color);
+}
+
+.inputDescription {
+	width: 185%;
+}
+
+.nameLabel,
+.emailLabel,
+.descriptionLabel {
+	font-weight: 500;
+	position: absolute;
+	top: 7px;
+	left: 12px;
+	transition: all 0.2s ease;
+	color: var(--secondary-color);
+	font-size: 16px;
+}
+
+.inputName:focus,
+.inputEmail:focus,
+.inputDescription:focus {
+	outline: none;
+}
+
+.inputName:focus + .nameLabel,
+.inputName:valid + .nameLabel,
+.inputEmail:focus + .emailLabel,
+.inputEmail:valid + .emailLabel {
+	font-size: 18px;
+	top: -25px;
+	left: 0px;
+}
+
+.inputDescription:focus + .descriptionLabel,
+.inputDescription:valid + .descriptionLabel {
+	font-size: 18px;
+	top: 110px;
+	left: 0px;
+}
+
+button {
+	cursor: pointer;
+	padding: 10px 70px;
+	font-size: 1.5rem;
+	background: transparent;
+	color: var(--primary-color);
+	border: 1.5px solid var(--tertiary-color);
+	border-radius: 4px;
+	font-weight: 500;
+}
+
+button:hover {
+	color: #000;
+	background: var(--link-color);
+}
+
+.submitting {
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: var(--primary-color);
+	font-size: 5rem;
+}
+
+.confirmed {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+}
+
+.confirmed__message {
+	margin-bottom: 2rem;
+	color: var(--primary-color);
+	font-size: 5rem;
+	text-align: center;
+}
+
+.confirmed__message__button {
+	cursor: pointer;
+	padding: 1rem 7rem;
+	font-size: 2rem;
+	background: transparent;
+	color: var(--primary-color);
+	border: 0.15rem solid var(--primary-color);
+	border-radius: 0.4rem;
+}
+.confirmed__message__button:hover {
+	background: var(--primary-color);
+	color: var(--primary-color);
+}
