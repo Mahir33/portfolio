@@ -20,10 +20,10 @@ const Works = () => {
 								className="work-image"
 							/>
 							<div className="work-title">
-								Digital Career Institute gGmbH, Berlin
+								Web Developer Junior Instructor
 							</div>
 							<div className="work-subtitle">
-								Web Developer Junior Instructor
+								Digital Career Institute gGmbH, Berlin
 							</div>
 							<div className="work-duration">
 								10/2022 - 08/2024
@@ -37,10 +37,10 @@ const Works = () => {
 								className="work-image"
 							/>
 							<div className="work-title">
-								Digital Career Institute gGmbH, Berlin
+								Junior Test Automation Engineer
 							</div>
 							<div className="work-subtitle">
-								Junior Test Automation Engineer
+								Digital Career Institute gGmbH, Berlin
 							</div>
 							<div className="work-duration">
 								02/2022 - 10/2022
@@ -53,10 +53,10 @@ const Works = () => {
 								className="work-image"
 							/>
 							<div className="work-title">
-								Digital Career Institute gGmbH, Berlin
+								Web Developer Assistant Instructor
 							</div>
 							<div className="work-subtitle">
-								Web Developer Assistant Instructor
+								Digital Career Institute gGmbH, Berlin
 							</div>
 							<div className="work-duration">
 								10/2021 - 10/2023
