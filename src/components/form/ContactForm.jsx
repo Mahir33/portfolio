@@ -1,5 +1,6 @@
 import React from "react";
 import { useForm } from "@formspree/react";
+import "./styles/contactForm.css";
 
 const ContactForm = () => {
 	const [state, handleSubmit, reset] = useForm("mknddjdj");

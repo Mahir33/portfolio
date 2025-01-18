@@ -5,6 +5,10 @@
 	padding-bottom: 20px;
 }
 
+.socials {
+	padding-left: 10px;
+}
+
 .social a,
 .email-wrapper a {
 	text-decoration: none;
