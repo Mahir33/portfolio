@@ -8,10 +8,9 @@ This repository contains the code for my personal **Portfolio Website**, which s
 1. [Project Overview](#project-overview)
 2. [Features](#features)
 3. [Technologies Used](#technologies-used)
-4. [Setup and Installation](#setup-and-installation)
-5. [Usage](#usage)
-6. [License](#license)
-7. [Author](#author)
+4. [Usage](#usage)
+5. [License](#license)
+6. [Author](#author)
 
 ---
 
@@ -38,7 +37,8 @@ The **Portfolio Website** is a responsive and interactive web application design
 ---
 
 ## Usage
-- Open the website in the browser to explore the portfolio.
+- Open the website in the browser to explore the portfolio:
+  [Live Demo](https://adam-wrobel-web-dev.netlify.app/)
 - Navigate through the sections: Home, About, Projects, and Contact.
 - Use the contact form to send messages or follow links to my social media and GitHub profiles.
 
