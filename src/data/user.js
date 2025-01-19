@@ -90,6 +90,20 @@ const INFO = {
 			demoLink: "https://adam-wrobel-web-dev.netlify.app/",
 		},
 		{
+			title: "Pokédex App",
+			description: ` The **Pokédex App** is a responsive web application that allows users to browse and learn about various Pokémon. The app fetches data from an external API and presents it in an intuitive and user-friendly interface.`,
+			techLogo: [
+				"https://apps.odoo.com/apps/icon_image?module_id=37657",
+				"https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
+			],
+			linkText: "View Source Code",
+			link: "https://github.com/Mahir33/CF-oh-lets-chat",
+			previewImg:
+				"https://github.com/Mahir33/CF-Pokedex/blob/main/assets/main.png?raw=true",
+			demoText: "View Live Demo",
+			demoLink: "https://mahir33.github.io/CF-Pokedex/",
+		},
+		{
 			title: "Metric/Imperial Unit Converter",
 			description:
 				"This App allows user to convert a single numerical value to metric and imperial units.",
