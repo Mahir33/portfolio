@@ -6,8 +6,16 @@ import { faLink } from "@fortawesome/free-solid-svg-icons";
 import "./styles/project.css";
 
 const Project = (props) => {
-	const { techLogo, title, description, linkText, link, demoText, demoLink } =
-		props;
+	const {
+		techLogo,
+		title,
+		description,
+		linkText,
+		link,
+		demoText,
+		demoLink,
+		previewImg,
+	} = props;
 
 	return (
 		<React.Fragment>
@@ -20,32 +28,41 @@ const Project = (props) => {
 					</div>
 					<div className="project-title">{title}</div>
 					<div className="project-description">{description}</div>
-					<Link
-						to={link}
-						target="_blank"
-						rel="noreferrer"
-						className="project-link"
-					>
-						<div className="project-link">
-							<div className="project-link-icon">
-								<FontAwesomeIcon icon={faLink} />
-							</div>
-							<div className="project-link-text">{linkText}</div>
-						</div>
-					</Link>
-					{demoLink && demoText && (
+					<div className="project-screenshot">
+						<img src={previewImg} alt="project" />
+					</div>
+					<div className="project-links">
 						<Link
-							to={demoLink}
+							to={link}
 							target="_blank"
 							rel="noreferrer"
 							className="project-link"
 						>
-							<div className="project-link-icon">
-								<FontAwesomeIcon icon={faLink} />
+							<div className="project-link">
+								<div className="project-link-icon">
+									<FontAwesomeIcon icon={faLink} />
+								</div>
+								<div className="project-link-text">
+									{linkText}
+								</div>
 							</div>
-							<div className="project-link-text">{demoText}</div>
 						</Link>
-					)}
+						{demoLink && demoText && (
+							<Link
+								to={demoLink}
+								target="_blank"
+								rel="noreferrer"
+								className="project-link"
+							>
+								<div className="project-link-icon">
+									<FontAwesomeIcon icon={faLink} />
+								</div>
+								<div className="project-link-text">
+									{demoText}
+								</div>
+							</Link>
+						)}
+					</div>
 				</div>
 			</div>
 		</React.Fragment>
