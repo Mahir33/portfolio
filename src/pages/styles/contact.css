@@ -36,3 +36,10 @@
 	justify-content: space-between;
 	align-items: center;
 }
+
+@media (max-width: 695px) {
+	.contact-socials {
+		display: flex;
+		flex-direction: column;
+	}
+}

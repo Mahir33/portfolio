@@ -60,7 +60,7 @@ const About = () => {
 								<div className="about-image-container">
 									<div className="about-image-wrapper">
 										<img
-											src="about.jpg"
+											src="about-me-avatar.svg"
 											alt="about"
 											className="about-image"
 										/>

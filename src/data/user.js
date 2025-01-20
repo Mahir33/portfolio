@@ -40,6 +40,8 @@ const INFO = {
 			],
 			linkText: "View Source Code",
 			link: "https://github.com/Mahir33/CF-oh-lets-chat",
+			previewImg:
+				"https://github.com/Mahir33/CF-oh-lets-chat/blob/main/assets/welcome.png?raw=true",
 		},
 		{
 			title: "ohMyFlix API",
@@ -54,6 +56,8 @@ const INFO = {
 			link: "https://github.com/Mahir33/CF-myFlix",
 			demoText: "View Live Demo",
 			demoLink: "https://myflix-api-mahir-941afb3e93ba.herokuapp.com/",
+			previewImg:
+				"https://github.com/Mahir33/CF-myFlix/blob/main/assets/code.png?raw=true",
 		},
 
 		{
@@ -66,6 +70,8 @@ const INFO = {
 			link: "https://github.com/Mahir33/CF-myFlix-client",
 			demoText: "View Live Demo",
 			demoLink: "https://ohmyflix.netlify.app",
+			previewImg:
+				"https://github.com/Mahir33/CF-myFlix-client/blob/main/assets/movies.png?raw=true",
 		},
 		{
 			title: "ohLetsMeet App",
@@ -88,6 +94,8 @@ const INFO = {
 			link: "https://github.com/Mahir33/portfolio",
 			demoText: "View Live Demo",
 			demoLink: "https://adam-wrobel-web-dev.netlify.app/",
+			previewImg:
+				"https://github.com/Mahir33/portfolio/blob/main/assets/main.png?raw=true",
 		},
 		{
 			title: "Pokédex App",
@@ -115,6 +123,8 @@ const INFO = {
 			link: "https://github.com/Mahir33/p-metric-imperial-unit-converter",
 			demoLink:
 				"https://mahir33.github.io/p-metric-imperial-unit-converter/",
+			previewImg:
+				"https://github.com/Mahir33/p-metric-imperial-unit-converter/blob/main/img/metric-imperial-unit-converter.png?raw=true",
 		},
 
 		{
@@ -128,6 +138,8 @@ const INFO = {
 			demoText: "View Live Demo",
 			link: "https://github.com/Mahir33/p-quote-generator",
 			demoLink: "https://mahir33.github.io/p-quote-generator/",
+			previewImg:
+				"https://github.com/Mahir33/p-quote-generator/blob/main/images/quote-gen-app.png?raw=true",
 		},
 	],
 };
