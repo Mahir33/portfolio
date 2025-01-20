@@ -28,9 +28,6 @@ const Project = (props) => {
 					</div>
 					<div className="project-title">{title}</div>
 					<div className="project-description">{description}</div>
-					<div className="project-screenshot">
-						<img src={previewImg} alt="project" />
-					</div>
 					<div className="project-links">
 						<Link
 							to={link}
@@ -62,6 +59,9 @@ const Project = (props) => {
 								</div>
 							</Link>
 						)}
+					</div>
+					<div className="project-screenshot">
+						<img src={previewImg} alt="project" />
 					</div>
 				</div>
 			</div>
