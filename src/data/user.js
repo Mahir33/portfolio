@@ -79,10 +79,14 @@ const INFO = {
 			techLogo: [
 				"https://static-00.iconduck.com/assets.00/react-icon-512x512-u6e60ayf.png",
 				"https://png.pngtree.com/png-vector/20230817/ourmid/pngtree-google-calendar-calendar-platform-icon-vector-png-image_9183258.png",
-				"https://cdn.icon-icons.com/icons2/2699/PNG/512/amazon_awslambda_logo_icon_167887.png",
+				"https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Amazon_Lambda_architecture_logo.svg/2048px-Amazon_Lambda_architecture_logo.svg.png",
 			],
 			linkText: "View Source Code",
 			link: "https://github.com/Mahir33/CF-meet",
+			demoText: "View Live Demo",
+			demoLink: "https://oh-lets-meet.vercel.app/",
+			previewImg:
+				"https://raw.githubusercontent.com/Mahir33/CF-ohletsmeet/refs/heads/main/ohLetsMeet-prev.png",
 		},
 		{
 			title: "Professional Portfolio",
