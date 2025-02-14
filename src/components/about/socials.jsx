@@ -1,7 +1,12 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
-import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
+import {
+	faGithub,
+	faLinkedin,
+	faXTwitter,
+} from "@fortawesome/free-brands-svg-icons";
+import { faFire } from "@fortawesome/free-solid-svg-icons";
 
 import INFO from "../../data/user";
 
@@ -35,6 +40,28 @@ const Socials = () => {
 						/>
 					</div>
 					<div className="social-text">Follow on LinkedIn</div>
+				</a>
+			</div>
+			<div className="social">
+				<a href={INFO.socials.x} target="_blank" rel="noreferrer">
+					<div className="social-icon">
+						<FontAwesomeIcon
+							icon={faXTwitter}
+							className="social-icon"
+						/>
+					</div>
+					<div className="social-text">Follow on Twitter</div>
+				</a>
+			</div>
+			<div className="social">
+				<a href={INFO.socials.medium} target="_blank" rel="noreferrer">
+					<div className="social-icon">
+						<FontAwesomeIcon
+							icon={faFire}
+							className="social-icon"
+						/>
+					</div>
+					<div className="social-text">Follow on Medium</div>
 				</a>
 			</div>
 

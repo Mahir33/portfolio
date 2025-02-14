@@ -9,6 +9,8 @@ const INFO = {
 	socials: {
 		github: "https://github.com/Mahir33",
 		linkedin: "https://www.linkedin.com/in/adam-wrobel-80802a20a/",
+		x: "https://x.com/W1112Adam",
+		medium: "https://medium.com/@adam.marek.wrobel",
 	},
 
 	homepage: {
