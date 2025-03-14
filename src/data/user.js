@@ -2,8 +2,8 @@ const INFO = {
 	main: {
 		title: "Portfolio by Adam Wrobel",
 		name: "Adam Wrobel",
-		email: "adem.wrobel(at)gmail.com",
-
+		emailVisible: "adem.wrobel(at)gmail.com",
+		email: "adem.wrobel@gmail.com",
 		logo: "../logo.png",
 	},
 
@@ -21,31 +21,18 @@ const INFO = {
 	},
 
 	about: {
-		title: "I’m Adam W. I live in Germany, where I design my future.",
+		title: "JavaScript & React Developer | MERN Stack Enthusiast",
 		description:
-			"I've worked on a variety of projects over the years and I'm proud of the progress I've made. Many of these projects are open-source and available for others to explore and contribute to. If you're interested in any of the projects I've worked on, please feel free to check out the code and suggest any improvements or enhancements you might have in mind. Collaborating with others is a great way to learn and grow, and I'm always open to new ideas and feedback.",
+			"I am a JavaScript and React Developer specializing in building dynamic, scalable, and efficient web applications. With hands-on experience in MERN stack development, I focus on writing clean, maintainable code and optimizing performance. I have a strong background in debugging, problem-solving, and unit testing with Jest.js, as well as experience in optimizing bug tracking and resolution to streamline the development process. Passionate about continuous learning, I stay up to date with modern web technologies to enhance my skills and contribute to innovative projects. I am actively seeking opportunities as a JavaScript and React Developer, where I can collaborate with forward-thinking teams and work on impactful applications. Let's connect—check out my projects and resume!",
 	},
 
 	projectsDesc: {
-		title: "I’m Adam W. I live in Poland, where I design my future.",
+		title: "I am Adam W. I live in Germany, where I design my future.",
 		description:
 			"I've worked on a variety of projects over the years and I'm proud of the progress I've made. Many of these projects are open-source and available for others to explore and contribute to. If you're interested in any of the projects I've worked on, please feel free to check out the code and suggest any improvements or enhancements you might have in mind. Collaborating with others is a great way to learn and grow, and I'm always open to new ideas and feedback.",
 	},
 
 	projects: [
-		{
-			title: "oh Lets Chat Mobile App",
-			description: `"oh Lets Chat" is a mobile chat application built with React Native and Expo. It provides users with a seamless chat experience where they can send messages, share images, and their location. The app uses Google Firebase for real-time data storage and authentication.`,
-			techLogo: [
-				"https://static-00.iconduck.com/assets.00/react-icon-512x512-u6e60ayf.png",
-				"https://cdn.prod.website-files.com/64d4ce10600bd67e51c42838/650d5d9ce364e01cf3cc138f_expo.png",
-				"https://www.svgrepo.com/show/353735/firebase.svg",
-			],
-			linkText: "View Source Code",
-			link: "https://github.com/Mahir33/CF-oh-lets-chat",
-			previewImg:
-				"https://github.com/Mahir33/CF-oh-lets-chat/blob/main/assets/welcome.png?raw=true",
-		},
 		{
 			title: "ohMyFlix API",
 			description: `The "myFlix API" is a RESTful backend application for managing movies, users, and favorite movie lists. It serves data about movies, directors, and genres, enabling users to interact with this data securely.`,
@@ -75,7 +62,21 @@ const INFO = {
 			demoLink: "https://ohmyflix.netlify.app",
 			previewImg:
 				"https://github.com/Mahir33/CF-myFlix-client/blob/main/assets/movies.png?raw=true",
-			caseStudy: "",
+			caseStudy:
+				"https://github.com/Mahir33/portfolio/raw/refs/heads/main/src/data/documents/ohMyFlix-case-study.pptx",
+		},
+		{
+			title: "oh Lets Chat Mobile App",
+			description: `"oh Lets Chat" is a mobile chat application built with React Native and Expo. It provides users with a seamless chat experience where they can send messages, share images, and their location. The app uses Google Firebase for real-time data storage and authentication.`,
+			techLogo: [
+				"https://static-00.iconduck.com/assets.00/react-icon-512x512-u6e60ayf.png",
+				"https://cdn.prod.website-files.com/64d4ce10600bd67e51c42838/650d5d9ce364e01cf3cc138f_expo.png",
+				"https://www.svgrepo.com/show/353735/firebase.svg",
+			],
+			linkText: "View Source Code",
+			link: "https://github.com/Mahir33/CF-oh-lets-chat",
+			previewImg:
+				"https://github.com/Mahir33/CF-oh-lets-chat/blob/main/assets/welcome.png?raw=true",
 		},
 		{
 			title: "ohLetsMeet App",

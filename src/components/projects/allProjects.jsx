@@ -20,6 +20,7 @@ const AllProjects = () => {
 						demoText={project.demoText}
 						demoLink={project.demoLink}
 						previewImg={project.previewImg}
+						caseStudy={project.caseStudy}
 					/>
 				</div>
 			))}

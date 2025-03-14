@@ -18,6 +18,7 @@ const Project = (props) => {
 		caseStudy,
 	} = props;
 
+	console.log(caseStudy);
 	return (
 		<React.Fragment>
 			<div className="project">
