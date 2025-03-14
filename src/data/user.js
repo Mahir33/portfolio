@@ -1,8 +1,9 @@
 const INFO = {
 	main: {
-		title: "Reactfolio by Adam Wrobel",
+		title: "Portfolio by Adam Wrobel",
 		name: "Adam Wrobel",
-		email: "adem.wrobel@gmail.com",
+		email: "adem.wrobel(at)gmail.com",
+
 		logo: "../logo.png",
 	},
 
@@ -20,7 +21,7 @@ const INFO = {
 	},
 
 	about: {
-		title: "I’m Adam W. I live in Poland, where I design my future.",
+		title: "I’m Adam W. I live in Germany, where I design my future.",
 		description:
 			"I've worked on a variety of projects over the years and I'm proud of the progress I've made. Many of these projects are open-source and available for others to explore and contribute to. If you're interested in any of the projects I've worked on, please feel free to check out the code and suggest any improvements or enhancements you might have in mind. Collaborating with others is a great way to learn and grow, and I'm always open to new ideas and feedback.",
 	},
@@ -74,6 +75,7 @@ const INFO = {
 			demoLink: "https://ohmyflix.netlify.app",
 			previewImg:
 				"https://github.com/Mahir33/CF-myFlix-client/blob/main/assets/movies.png?raw=true",
+			caseStudy: "",
 		},
 		{
 			title: "ohLetsMeet App",

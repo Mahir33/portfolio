@@ -15,6 +15,7 @@ const Project = (props) => {
 		demoText,
 		demoLink,
 		previewImg,
+		caseStudy,
 	} = props;
 
 	return (
@@ -56,6 +57,21 @@ const Project = (props) => {
 								</div>
 								<div className="project-link-text">
 									{demoText}
+								</div>
+							</Link>
+						)}
+						{caseStudy && (
+							<Link
+								to={caseStudy}
+								target="_blank"
+								rel="noreferrer"
+								className="project-link"
+							>
+								<div className="project-link-icon">
+									<FontAwesomeIcon icon={faLink} />
+								</div>
+								<div className="project-link-text">
+									Case Study
 								</div>
 							</Link>
 						)}
